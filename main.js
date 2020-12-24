@@ -11,3 +11,22 @@ if (marks >= 80){
 }else {
     console.log("failed");
 }
+
+
+
+
+
+const age = 19;
+
+if(age >= 60){
+    console.log("you are senior");
+    console.log("you are eligible for visa");
+    
+}else if (age >= 20){
+      console.log("you are young");
+      console.log("you are eligible for visa");
+    
+}else{
+    console.log("you are child");
+    console.log("you are not eligible for visa");
+}
