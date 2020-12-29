@@ -70,3 +70,21 @@ function CalculateCircumference(r){
 CalculateCircumference(54);
 CalculateCircumference(24);
 CalculateCircumference(534);
+
+
+
+
+
+
+//function
+function add(numberOne = 0, numberTwo = 0) {
+    console.log("numberOne: ", numberOne);
+    console.log("numberTwo: ", numberTwo);
+    const result = numberOne + numberTwo;
+    return result;
+    }
+    console.log(add(5, 2,));
+    console.log(add(1, 2));
+    console.log(add(3));
+    console.log(add());
+
