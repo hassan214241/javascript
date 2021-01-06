@@ -114,5 +114,19 @@ function personHight(h) {
     
 }
 
-personHight(65); 
+personHight(65);
+
+
+//convert kliometer to meter
+
+function kliometer(k) {
+    const result = 1000 * k;
+    console.log("convert kliometer to meter "+   k + " is " + result);
+    return result;
+    
+}
+kliometer(2);
+kliometer(22);
+kliometer(25);
+kliometer(28);
 
