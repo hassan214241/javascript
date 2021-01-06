@@ -130,3 +130,18 @@ kliometer(22);
 kliometer(25);
 kliometer(28);
 
+
+
+//convert meter to kliometer
+
+function meter(m) {
+    const result = m / 1000;
+    console.log("convert  meter to kliometer  "+   m + " is " + result);
+    return result;
+    
+}
+meter(1000);
+meter(100);
+meter(55.54);
+
+
