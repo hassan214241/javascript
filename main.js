@@ -163,3 +163,28 @@ else{
 
 
 
+// array in java script
+const marks =[2, 54, 65, 87, 55];
+// const arry = ["hassan",54,55,87,"farooq"];
+console.log(marks);
+// arry[0]=  "ali";
+console.log(arry);
+let value = marks.indexOf(55);
+console.log(value);
+// console.log(arry);
+marks.push(2154);
+marks.pop();
+marks.shift();
+marks.unshift();
+marks.splice();
+console.log(marks);
+
+
+let marks =[21, 54, 87, 98, 28];
+let marks2 =[1,2 ,3,4]
+// console.log(marks);
+// console.log(marks.length);
+
+marks=marks.concat(marks2);
+console.log(marks);
+
