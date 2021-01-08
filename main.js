@@ -145,3 +145,21 @@ meter(100);
 meter(55.54);
 
 
+
+
+
+// if else statment
+
+const english = 80;
+const urdu = 80;
+const math = 40;
+
+if (english == 80 && urdu == 80 && math == 80){
+    console.log("your are passed");
+}
+else{
+    console.log("your are falid");
+}
+
+
+
