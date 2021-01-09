@@ -188,3 +188,20 @@ let marks2 =[1,2 ,3,4]
 marks=marks.concat(marks2);
 console.log(marks);
 
+
+
+
+
+// find positive and negative number
+const n = -9
+
+if (n>0){
+    console.log("this is a positive number");
+}
+if (n<0){
+    console.log("this is a negative number");
+}
+if (n==0){
+    console.log("this number is zero");
+}
+
