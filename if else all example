@@ -49,3 +49,131 @@ else if (avg>50){
 else{
     console.log("you are falide");
 }
+
+
+
+find max number:
+const a = 11
+const b = 9
+const c = 66
+const max = a
+if (b>max){
+    console.log("b");
+}
+ if (c>max){
+    console.log("c");
+}
+
+
+
+
+find even and odd number:
+
+const n = 222
+
+if (n%2==0){
+    console.log("even");
+}
+else{
+    console.log("odd");
+}
+
+
+
+Find leap year or not using if else:
+
+const y = 1997
+
+if (y%4==0){
+    console.log("is a leap year");
+}
+else{
+    console.log("is a not leap year");
+}
+
+
+
+
+(input salary and grade and add bonus grade >15 then bonus 50% and grade <15 then bonus 25%)
+
+const salary = 16000
+const grade = 17
+const bonus1 = salary * 50/100
+const bonus2 = salary * 25/100
+
+if(grade>15){
+    console.log("grade");
+    console.log(grade);
+    console.log("salary");
+    console.log(salary);
+    console.log("bonus:");
+    console.log( bonus1);
+    console.log("Total salary:");
+    console.log( salary+bonus1);
+}
+else if (grade<=15){
+    console.log("grade");
+    console.log(grade);
+    console.log("salary");
+    console.log(salary);
+    console.log("bonus:");
+    console.log(bonus2);
+    console.log("Total salary:");
+    console.log(salary+bonus2);
+}
+
+
+
+
+const salary =1600
+const grade = 17
+const bonus1 = salary * 50/100
+const bonus2 = salary * 25/100
+
+if (grade>15){
+    console.log ("Grade",grade);
+    console.log("Salary",salary);
+    console.log("Bonus",bonus1);
+    console.log("Total salary",salary+bonus1);
+
+}
+else if(grade<=15){
+    console.log ("Grade",grade);
+    console.log("Salary",salary);
+    console.log("Bonus",bonus2);
+    console.log("Total salary",salary+bonus2);
+}
+
+
+
+bill system per unit:
+
+const unit =300
+const bill1= unit *  2
+const bill2= unit * 5
+const bill3= unit* 7
+if (unit<=300){
+    console.log(bill1);
+    console.log(bill1+150);
+
+}
+else if(unit>300<=500){
+    console.log(bill2);
+}
+else if (unit>500){
+    console.log(bill3);
+}
+
+find salary tex
+
+const salary =10000
+const salary1 = salary *7/100
+if(salary>=20000){
+    console.log(salary1);
+} 
+else if (salary>=10000){
+    console.log(salary-1000);
+}
+else if (salary<10000){
+    console.log(salary);
+}
