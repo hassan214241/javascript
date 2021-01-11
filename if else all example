@@ -219,3 +219,21 @@ else if(a==b&c){
 else{
     console.log("c is a max number");
 }
+
+
+
+//Find capital letter small letter digit and symbol:using input:
+const ch = '+'
+
+if((ch>='A') && (ch<='Z')){
+    console.log("is a capital letter");
+}
+else if ((ch>='a') & (ch<='z')){
+    console.log("is a small letter");
+}
+else if ((ch>='0') & (ch<='9')) {
+    console.log("is a digit number ");
+}
+else{
+    console.log("is a symbol ");
+}
