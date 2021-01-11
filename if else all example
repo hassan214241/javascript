@@ -198,3 +198,24 @@ if(a==b){
 else{
     console.log("number are not equal");
 }
+
+
+
+//Find max and min number using logical operator
+used and operator
+
+const a = 5
+const b = 8
+const c = 121
+if(a>b&&a>c){
+    console.log("a is a max number");
+}
+else if (b>a&&b>c){
+    console.log("b is a max number");
+}
+else if(a==b&c){
+    console.log("number are equal");
+}
+else{
+    console.log("c is a max number");
+}
